@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "658209422677",
+    "project_id": "rapidfoodapp-8889d",
+    "storage_bucket": "rapidfoodapp-8889d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658209422677:android:eb6d6487b7cba166d7c3dc",
+        "android_client_info": {
+          "package_name": "com.burtton.rapidfoodapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658209422677-1vdhari2dn8lk6m64uqvvq3dbmqc1njs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.burtton.rapidfoodapp",
+            "certificate_hash": "7f55c3ae7c74367201eb648bfb9f84c3832310f0"
+          }
+        },
+        {
+          "client_id": "658209422677-mgg590ulqv1q2a8h02lja6lmoh8968i7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWGN89i4NELXhy_u4o8m2v9PlxsScx-zY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658209422677-mgg590ulqv1q2a8h02lja6lmoh8968i7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

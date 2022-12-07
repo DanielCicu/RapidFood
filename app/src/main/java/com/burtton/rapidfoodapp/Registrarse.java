@@ -21,6 +21,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+
 public class Registrarse extends AppCompatActivity {
 
     EditText edtxNumeroIdentidadRegistroCliente, edtxNombreCliente, edtxNumeroTelefonoCliente;
@@ -47,6 +48,7 @@ public class Registrarse extends AppCompatActivity {
         btnGuardarRegistro = findViewById(R.id.btnGuardarRegistro);
 
         btnGuardarRegistro.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
 
@@ -72,6 +74,7 @@ public class Registrarse extends AppCompatActivity {
     public void registrar(String documentoIdentidad, String nombreCompleto, String numeroTelefonico, String email, String direccion, String contrasena, int posicion) {
 
         auth.createUserWithEmailAndPassword(email, contrasena).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+
             @Override
             public void onComplete(@NonNull Task<AuthResult> task1) {
                 if (task1.isSuccessful()) {

@@ -40,6 +40,7 @@ public class Ingresar extends AppCompatActivity {
         btnIngresoApp = findViewById(R.id.btnIngresoApp);
 
         btnIngresoApp.setOnClickListener(new View.OnClickListener() {
+            
             @Override
             public void onClick(View view) {
 
